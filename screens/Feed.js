@@ -63,7 +63,7 @@ export default class Feed extends React.Component {
 			<SafeAreaView style={style}>
 				<CardList 
 					items={items}
-					commentsForItem={commentForItem}
+					commentsForItem={commentsForItem}
 					onPressComments={onPressComments}
 				/>
 			</SafeAreaView>
